@@ -19,7 +19,7 @@ void main() async {
 
   final queryDurationsMs = <int>[];
 
-  for (var i = 0; i < 500; i++) {
+  for (var i = 0; i < 1000; i++) {
     final sw = Stopwatch()..start();
     await gqlClient.query(QueryOptions(
       document: todosQuery,

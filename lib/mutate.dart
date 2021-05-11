@@ -39,7 +39,7 @@ void main() async {
   final r = Random();
   final mutationDurationsMs = <int>[];
 
-  for (var i = 0; i < 500; i++) {
+  for (var i = 0; i < 1000; i++) {
     final mutationTarget = todos[r.nextInt(todos.length)];
 
     final sw = Stopwatch()..start();
